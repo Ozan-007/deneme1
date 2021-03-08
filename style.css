@@ -1,0 +1,99 @@
+body{
+    background-color: #ebecf0;
+    font-family: "Montserrat";
+
+}
+
+form {
+    padding: 16px;
+    width:320px;    
+    margin: 0 auto;
+}
+
+
+.segment{
+    text-align: center;
+    color: #BABECC;
+    text-shadow: 2.5px 2.5px 2.3px #fff;
+    padding: 10px;
+}
+
+label{
+    display: block;
+    
+}
+
+
+input{
+    border: none;
+    padding: 16px;
+    margin-bottom: 8px;
+    font-family: "Montserrat";
+    transition:0.5s;
+    display: block;
+    width:100%;
+    border-radius: 32px;
+    outline: none;
+    background-color: #ebecf0;
+    box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+
+input:focus{
+    box-shadow: inset 2px 2px 2px #BABECC, inset -5px -5px 2px #FFF;
+}
+.red {
+    font-weight: 600;
+    font-size: 16px;
+    width: 100%;
+    display: block;
+    padding:16px;
+    color: #f00;
+    font-family: "Montserrat";
+    border-radius:13px;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+
+
+}
+
+button.unit{
+    width:50px;
+    height:50px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
+    outline: none
+}
+
+button:active{
+    box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+
+button:hover{
+        box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+.ques{
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+}
+
+.ques:active{
+    box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+
+.ques:hover{
+        box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
+}
